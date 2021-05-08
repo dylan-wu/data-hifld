@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS naics(
+	code INTEGER PRIMARY KEY,  
+  	desc TEXT NOT NULL
+);

@@ -1,0 +1,3 @@
+wget -NS --content-disposition -P raw https://opendata.arcgis.com/datasets/0dfe37d2a68545a699b999804354dacf_0.gdb?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D
+pushd raw && unzip Private_Schools-fgdb.zip && mv 238dea9d18e84fee9a9f98d2ac61d610.gdb Private_Schools.gdb && popd
+wget -NS --content-disposition -P raw  https://opendata.arcgis.com/datasets/0dfe37d2a68545a699b999804354dacf_0.csv?outSR=%7B%22latestWkid%22%3A3857%2C%22wkid%22%3A102100%7D
